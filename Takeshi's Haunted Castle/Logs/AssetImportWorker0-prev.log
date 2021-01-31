@@ -1,0 +1,655 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16295 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity Projects/GG2021/Takeshi's Haunted Castle
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54913
+Successfully changed project path to: D:/Unity Projects/GG2021/Takeshi's Haunted Castle
+D:/Unity Projects/GG2021/Takeshi's Haunted Castle
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 26.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/GG2021/Takeshi's Haunted Castle/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.6140
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001217 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 26.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.815 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001536 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Find all reader and writers took 61 milliseconds
+Script Module: UnityEngine.UI.dll
+Weave behaviours and messages took51 milliseconds
+Find all reader and writers took 55 milliseconds
+Script Module: Assembly-CSharp.dll
+[PlayerInfoMessage] NetworkBehaviourProcessor
+[customNetworkManager] NetworkBehaviourProcessor
+Weave behaviours and messages took26 milliseconds
+Find all reader and writers took 47 milliseconds
+Script Module: UnityEngine.TestRunner.dll
+Weave behaviours and messages took16 milliseconds
+Find all reader and writers took 42 milliseconds
+Script Module: SimpleWebTransport.dll
+Weave behaviours and messages took4 milliseconds
+Find all reader and writers took 45 milliseconds
+Script Module: Unity.Timeline.dll
+Weave behaviours and messages took22 milliseconds
+Find all reader and writers took 47 milliseconds
+Script Module: Mirror.Examples.dll
+[Projectile] NetworkBehaviourProcessor
+[Tank] NetworkBehaviourProcessor
+[NetworkRoomPlayer] NetworkBehaviourProcessor
+[NetworkRoomPlayerExt] NetworkBehaviourProcessor
+[PlayerController] NetworkBehaviourProcessor
+[PlayerScore] NetworkBehaviourProcessor
+[RandomColor] NetworkBehaviourProcessor
+[Reward] NetworkBehaviourProcessor
+[AddForce] NetworkBehaviourProcessor
+[Ball] NetworkBehaviourProcessor
+[Player] NetworkBehaviourProcessor
+[MatchController] NetworkBehaviourProcessor
+[PhysicsCollision] NetworkBehaviourProcessor
+[PlayerController] NetworkBehaviourProcessor
+[PlayerScore] NetworkBehaviourProcessor
+[RandomColor] NetworkBehaviourProcessor
+[Reward] NetworkBehaviourProcessor
+[Player] NetworkBehaviourProcessor
+[MonsterMovement] NetworkBehaviourProcessor
+[PlayerMovement] NetworkBehaviourProcessor
+[Player] NetworkBehaviourProcessor
+[PlayerController] NetworkBehaviourProcessor
+[RandomColor] NetworkBehaviourProcessor
+[ShootingTankBehaviour] NetworkBehaviourProcessor
+Weave behaviours and messages took23 milliseconds
+  ProcessSitesModule Mirror.Examples.dll elapsed time:00:00:00.0079088
+Find all reader and writers took 45 milliseconds
+Script Module: Mirror.Components.dll
+[NetworkAnimator] NetworkBehaviourProcessor
+[NetworkRoomPlayer] NetworkBehaviourProcessor
+[NetworkLobbyPlayer] NetworkBehaviourProcessor
+[NetworkVisibility] NetworkBehaviourProcessor
+[NetworkVisibility] Found NetworkBehaviour Mirror.NetworkVisibility
+[NetworkVisibility] Process Start
+[NetworkVisibility]   GenerateSerialization
+[NetworkVisibility]   GenerateDeSerialization
+[NetworkVisibility] Process Done
+[NetworkMatchChecker] NetworkBehaviourProcessor
+[NetworkVisibility] NetworkBehaviourProcessor
+[NetworkProximityChecker] NetworkBehaviourProcessor
+[NetworkRoomPlayer] NetworkBehaviourProcessor
+[NetworkVisibility] NetworkBehaviourProcessor
+[NetworkSceneChecker] NetworkBehaviourProcessor
+[NetworkTransformBase] NetworkBehaviourProcessor
+[NetworkTransform] NetworkBehaviourProcessor
+[NetworkTransformBase] NetworkBehaviourProcessor
+[NetworkTransformBase] NetworkBehaviourProcessor
+[NetworkTransformChild] NetworkBehaviourProcessor
+[NetworkLerpRigidbody] NetworkBehaviourProcessor
+[NetworkRigidbody] NetworkBehaviourProcessor
+[NetworkRigidbody2D] NetworkBehaviourProcessor
+[NetworkTransformBase] NetworkBehaviourProcessor
+[NetworkTransform] NetworkBehaviourProcessor
+[NetworkTransformBase] NetworkBehaviourProcessor
+[NetworkTransformBase] NetworkBehaviourProcessor
+[NetworkTransformChild] NetworkBehaviourProcessor
+Weave behaviours and messages took23 milliseconds
+  ProcessSitesModule Mirror.Components.dll elapsed time:00:00:00.0015158
+Find all reader and writers took 52 milliseconds
+Script Module: Unity.TextMeshPro.dll
+Weave behaviours and messages took55 milliseconds
+Find all reader and writers took 40 milliseconds
+Script Module: Telepathy.dll
+Weave behaviours and messages took1 milliseconds
+Find all reader and writers took 47 milliseconds
+Script Module: Mirror.Authenticators.dll
+Weave behaviours and messages took10 milliseconds
+  ProcessSitesModule Mirror.Authenticators.dll elapsed time:00:00:00.0004959
+Find all reader and writers took 45 milliseconds
+Script Module: Mirror.Examples.Cloud.GUI.dll
+Weave behaviours and messages took2 milliseconds
+Find all reader and writers took 45 milliseconds
+Script Module: Mirror.Cloud.dll
+Weave behaviours and messages took2 milliseconds
+Find all reader and writers took 42 milliseconds
+Script Module: kcp2k.dll
+Weave behaviours and messages took2 milliseconds
+Find all reader and writers took 43 milliseconds
+Script Module: Mirror.Examples.Cloud.Pong.dll
+[Ball] NetworkBehaviourProcessor
+[BallManager] NetworkBehaviourProcessor
+[Player] NetworkBehaviourProcessor
+Weave behaviours and messages took8 milliseconds
+  ProcessSitesModule Mirror.Examples.Cloud.Pong.dll elapsed time:00:00:00.0004961
+Find all reader and writers took 62 milliseconds
+Script Module: UnityEditor.TestRunner.dll
+Weave behaviours and messages took25 milliseconds
+Find all reader and writers took 62 milliseconds
+Script Module: UnityEditor.UI.dll
+Weave behaviours and messages took11 milliseconds
+Find all reader and writers took 46 milliseconds
+Script Module: Mirror.CompilerSymbols.dll
+Weave behaviours and messages took0 milliseconds
+Mono: successfully reloaded assembly
+- Completed reload, in  3.303 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1445 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.6 MB.
+System memory in use after: 69.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1877.
+Total: 2.032700 ms (FindLiveObjects: 0.132100 ms CreateObjectMapping: 0.043300 ms MarkObjects: 1.813300 ms  DeleteObjects: 0.043000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/FirstPerson-AIO.prefab
+  artifactKey: Guid(b904567126512e74196978ee554ab43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FirstPerson-AIO.prefab using Guid(b904567126512e74196978ee554ab43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e521742d743681c43d3105bfff986c6d') in 0.089123 seconds
+  Import took 0.091615 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001524 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.758 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1886.
+Total: 1.587500 ms (FindLiveObjects: 0.131300 ms CreateObjectMapping: 0.040500 ms MarkObjects: 1.400100 ms  DeleteObjects: 0.014600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001404 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.649 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.9 MB.
+System memory in use after: 74.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1888.
+Total: 1.493300 ms (FindLiveObjects: 0.155300 ms CreateObjectMapping: 0.045600 ms MarkObjects: 1.276800 ms  DeleteObjects: 0.014400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 710.876732 seconds.
+  path: Assets/Mirror/Runtime/Mirror.asmdef
+  artifactKey: Guid(30817c1a0e6d646d99c048fc403f5979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Runtime/Mirror.asmdef using Guid(30817c1a0e6d646d99c048fc403f5979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887fd09538f48b7c8f4b0084129923fc') in 0.008400 seconds
+  Import took 0.010856 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001406 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.645 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.3 MB.
+System memory in use after: 74.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1890.
+Total: 1.372400 ms (FindLiveObjects: 0.149800 ms CreateObjectMapping: 0.043300 ms MarkObjects: 1.162400 ms  DeleteObjects: 0.015200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001415 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.648 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.0 MB.
+System memory in use after: 74.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1892.
+Total: 1.322600 ms (FindLiveObjects: 0.135700 ms CreateObjectMapping: 0.044600 ms MarkObjects: 1.125300 ms  DeleteObjects: 0.016100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2037.951276 seconds.
+  path: Assets/Prefabs/enemyImageB Variant.prefab
+  artifactKey: Guid(a35b71488d470554db31440348af7dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/enemyImageB Variant.prefab using Guid(a35b71488d470554db31440348af7dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60bfef9b2d71465b721dbc3abfb8e0d0') in 0.061508 seconds
+  Import took 0.064491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Prefabs/enemyImageL.prefab
+  artifactKey: Guid(27cd037a727578b4096d78acf4b34b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/enemyImageL.prefab using Guid(27cd037a727578b4096d78acf4b34b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f5fb8a3040c03b8f1162aca2acd7cd') in 0.029617 seconds
+  Import took 0.031785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Prefabs/FirstPerson-AIO.prefab
+  artifactKey: Guid(b904567126512e74196978ee554ab43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FirstPerson-AIO.prefab using Guid(b904567126512e74196978ee554ab43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a819d1a43a374356c49cfc1f34d3661d') in 0.023153 seconds
+  Import took 0.025514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Prefabs/enemyImageR Variant.prefab
+  artifactKey: Guid(30337cd2f83edba4a9610235b3ddbd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/enemyImageR Variant.prefab using Guid(30337cd2f83edba4a9610235b3ddbd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126f57844cdc1266f30e886521a35abc') in 0.015579 seconds
+  Import took 0.017742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Prefabs/enemyImageF.prefab
+  artifactKey: Guid(feeaea70f802e004cbab39a1bc4bac27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/enemyImageF.prefab using Guid(feeaea70f802e004cbab39a1bc4bac27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8dd7b792a92fc997534c97081f8329') in 0.015473 seconds
+  Import took 0.017643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.891366 seconds.
+  path: Assets/Prefabs/FirstPerson-AIO.prefab
+  artifactKey: Guid(b904567126512e74196978ee554ab43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FirstPerson-AIO.prefab using Guid(b904567126512e74196978ee554ab43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc27c6b3783e5e76c73cbc1f571be35b') in 0.017807 seconds
+  Import took 0.020347 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001400 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000012C8AC4B050 doesn't match image D:\Unity Projects\GG2021\Takeshi's Haunted Castle\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.651 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.4 MB.
+System memory in use after: 74.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1895.
+Total: 1.321100 ms (FindLiveObjects: 0.119400 ms CreateObjectMapping: 0.038500 ms MarkObjects: 1.150100 ms  DeleteObjects: 0.012300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 113.728795 seconds.
+  path: Assets/Prefabs/enemyImageL.prefab
+  artifactKey: Guid(27cd037a727578b4096d78acf4b34b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/enemyImageL.prefab using Guid(27cd037a727578b4096d78acf4b34b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf906431260e366990eae04592a8b5d8') in 0.047814 seconds
+  Import took 0.050079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Prefabs/FirstPerson-AIO.prefab
+  artifactKey: Guid(b904567126512e74196978ee554ab43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FirstPerson-AIO.prefab using Guid(b904567126512e74196978ee554ab43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49298528f005a9bd8d355d6cd2c61132') in 0.020690 seconds
+  Import took 0.023088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Prefabs/enemyImageR Variant.prefab
+  artifactKey: Guid(30337cd2f83edba4a9610235b3ddbd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/enemyImageR Variant.prefab using Guid(30337cd2f83edba4a9610235b3ddbd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f11dd56a59878ebedc227886a4322ec') in 0.008759 seconds
+  Import took 0.011182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Prefabs/enemyImageB Variant.prefab
+  artifactKey: Guid(a35b71488d470554db31440348af7dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/enemyImageB Variant.prefab using Guid(a35b71488d470554db31440348af7dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa3a07c8167adfad1a794e16f3b5306') in 0.007633 seconds
+  Import took 0.009792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Prefabs/enemyImageF.prefab
+  artifactKey: Guid(feeaea70f802e004cbab39a1bc4bac27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/enemyImageF.prefab using Guid(feeaea70f802e004cbab39a1bc4bac27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5838afdf84bf8e3f94469af776422d92') in 0.007632 seconds
+  Import took 0.009912 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001406 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.670 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.2 MB.
+System memory in use after: 74.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1898.
+Total: 1.770100 ms (FindLiveObjects: 0.216700 ms CreateObjectMapping: 0.109300 ms MarkObjects: 1.423200 ms  DeleteObjects: 0.019600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.301107 seconds.
+  path: Assets/Prefabs/FirstPerson-AIO.prefab
+  artifactKey: Guid(b904567126512e74196978ee554ab43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FirstPerson-AIO.prefab using Guid(b904567126512e74196978ee554ab43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d7e364bb48244a692904d883c21343') in 0.060568 seconds
+  Import took 0.063322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.874824 seconds.
+  path: Assets/targetedNum.cs
+  artifactKey: Guid(c8c0e0b38bf192441905997829c2a91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/targetedNum.cs using Guid(c8c0e0b38bf192441905997829c2a91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28736ca23dabd222d31ea28a99867a36') in 0.009045 seconds
+  Import took 0.011786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.319803 seconds.
+  path: Assets/StartScreen.cs
+  artifactKey: Guid(0de68af505f8df94b96cb32b9d3d1857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StartScreen.cs using Guid(0de68af505f8df94b96cb32b9d3d1857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01930c875b030e025153a65469129360') in 0.004936 seconds
+  Import took 0.007150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.711212 seconds.
+  path: Assets/sideFinder.cs
+  artifactKey: Guid(5eb6867f52e7af047b09a5e1f1a45b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sideFinder.cs using Guid(5eb6867f52e7af047b09a5e1f1a45b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b658f18ce921123865a7cbc7333c26dc') in 0.004831 seconds
+  Import took 0.007049 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002922 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.677 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.4 MB.
+System memory in use after: 74.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1901.
+Total: 1.370100 ms (FindLiveObjects: 0.117300 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.203000 ms  DeleteObjects: 0.013700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.166338 seconds.
+  path: Assets/targetedNum.cs
+  artifactKey: Guid(c8c0e0b38bf192441905997829c2a91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/targetedNum.cs using Guid(c8c0e0b38bf192441905997829c2a91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c50095bfdc32465225567f31ca6d13a') in 0.003462 seconds
+  Import took 0.005784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.614442 seconds.
+  path: Assets/SD.cs
+  artifactKey: Guid(deaff03e05e32534db30e7a60a0722a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SD.cs using Guid(deaff03e05e32534db30e7a60a0722a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fb9978d96656dad5773b0489a43993') in 0.006613 seconds
+  Import took 0.008916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.449451 seconds.
+  path: Assets/playerScript.cs
+  artifactKey: Guid(ac07babae1d22cf4a957f3c43aa11e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/playerScript.cs using Guid(ac07babae1d22cf4a957f3c43aa11e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b46bc265039fee4a3979942e610190e') in 0.005193 seconds
+  Import took 0.007567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.186235 seconds.
+  path: Assets/PlayerInfoMessage.cs
+  artifactKey: Guid(d2b318ed9e244574c8487d5ccefca3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerInfoMessage.cs using Guid(d2b318ed9e244574c8487d5ccefca3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab23db69a048287991e9a6b08bfdad6') in 0.005857 seconds
+  Import took 0.008551 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001443 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.672 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.3 MB.
+System memory in use after: 74.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1903.
+Total: 1.406900 ms (FindLiveObjects: 0.125400 ms CreateObjectMapping: 0.038900 ms MarkObjects: 1.228100 ms  DeleteObjects: 0.013700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.912337 seconds.
+  path: Assets/playerScript.cs
+  artifactKey: Guid(ac07babae1d22cf4a957f3c43aa11e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/playerScript.cs using Guid(ac07babae1d22cf4a957f3c43aa11e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78b9cae680b9de6476c4f9dacc6efac') in 0.003282 seconds
+  Import took 0.005744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.870008 seconds.
+  path: Assets/playerCount.cs
+  artifactKey: Guid(bd81cb35aa05ae247a9b56c917f59a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/playerCount.cs using Guid(bd81cb35aa05ae247a9b56c917f59a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d88e15b3426cf93d13a1ee8ba74754') in 0.005068 seconds
+  Import took 0.008013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.810912 seconds.
+  path: Assets/navMeshAgent.cs
+  artifactKey: Guid(857c6969e6af7d945b9f2680ca4d8bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/navMeshAgent.cs using Guid(857c6969e6af7d945b9f2680ca4d8bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9d9c630c4597f9ea6f97970ada38cd') in 0.004966 seconds
+  Import took 0.007129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.217593 seconds.
+  path: Assets/exit.cs
+  artifactKey: Guid(b2ccfcc528e2298449087ee3304347a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/exit.cs using Guid(b2ccfcc528e2298449087ee3304347a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cdac1177ec0e984987bc5101c4c09a9') in 0.006957 seconds
+  Import took 0.009058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.560235 seconds.
+  path: Assets/assignment.cs
+  artifactKey: Guid(7474f402404a79941a97379b1b6ac67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assignment.cs using Guid(7474f402404a79941a97379b1b6ac67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b2167ac2136907a36f640f5180d19f') in 0.005700 seconds
+  Import took 0.007963 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 45.7 MB.
+System memory in use after: 45.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1903.
+Total: 1.647400 ms (FindLiveObjects: 0.171900 ms CreateObjectMapping: 0.045500 ms MarkObjects: 1.415700 ms  DeleteObjects: 0.013100 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
