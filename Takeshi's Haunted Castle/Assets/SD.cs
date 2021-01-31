@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Mirror;
+//using Mirror;
 
-public class SD : NetworkBehaviour
+public class SD : MonoBehaviour
 {
     public float timer;
     public float time;

@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Mirror;
+//using Mirror;
 
-public class targetedNum : NetworkBehaviour
+public class targetedNum : MonoBehaviour
 {
     public int number;
     // Start is called before the first frame update

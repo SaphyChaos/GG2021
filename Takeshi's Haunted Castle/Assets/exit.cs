@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Mirror;
+//using Mirror;
 
-    public class exit : NetworkBehaviour
+    public class exit : MonoBehaviour
     {
         public Collider[] findPlayer;
         int layerId;

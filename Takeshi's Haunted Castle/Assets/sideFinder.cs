@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Mirror;
+//using Mirror;
 
-public class sideFinder : NetworkBehaviour
+public class sideFinder : MonoBehaviour
 {
     public GameObject temp;
     public GameObject[] sides;

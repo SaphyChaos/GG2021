@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Mirror;
+//using Mirror;
 
-public class assignment : NetworkBehaviour
+public class assignment : MonoBehaviour
 {
     public GameObject myNetworkManager;
     public GameObject myEnemy;

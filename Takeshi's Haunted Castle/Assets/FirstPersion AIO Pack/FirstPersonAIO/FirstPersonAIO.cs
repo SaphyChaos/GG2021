@@ -58,7 +58,7 @@ using UnityEngine.UI;
 using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
-using Mirror;
+//using Mirror;
 
 #if UNITY_EDITOR
     using UnityEditor;
@@ -67,7 +67,7 @@ using Mirror;
 
 [RequireComponent(typeof(CapsuleCollider)),RequireComponent(typeof(Rigidbody)),AddComponentMenu("First Person AIO")]
 
-public class FirstPersonAIO : NetworkBehaviour {
+public class FirstPersonAIO : MonoBehaviour {
 
 
     #region Variables

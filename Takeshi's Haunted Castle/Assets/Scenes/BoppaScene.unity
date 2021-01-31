@@ -398,8 +398,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!108 &120292542
 Light:
@@ -901,8 +899,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!114 &375508769
 MonoBehaviour:
@@ -1098,8 +1094,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!114 &394672009
 MonoBehaviour:
@@ -1227,8 +1221,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 1
 --- !u!108 &399485787
 Light:
@@ -1342,8 +1334,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2ccfcc528e2298449087ee3304347a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   findPlayer: []
 --- !u!135 &500438658
 SphereCollider:
@@ -1609,8 +1599,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!108 &548769561
 Light:
@@ -1869,8 +1857,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!114 &701065924
 MonoBehaviour:
@@ -1998,8 +1984,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!108 &737253873
 Light:
@@ -2318,8 +2302,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!114 &926381264
 MonoBehaviour:
@@ -2618,8 +2600,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!114 &1002376916
 MonoBehaviour:
@@ -2922,8 +2902,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!114 &1091236502
 MonoBehaviour:
@@ -3298,8 +3276,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!108 &1187225311
 Light:
@@ -3488,8 +3464,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!114 &1192413729
 MonoBehaviour:
@@ -3755,7 +3729,6 @@ GameObject:
   - component: {fileID: 1284947972}
   - component: {fileID: 1284947975}
   - component: {fileID: 1284947976}
-  - component: {fileID: 1284947977}
   m_Layer: 0
   m_Name: networkManager
   m_TagString: Untagged
@@ -3854,25 +3827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd81cb35aa05ae247a9b56c917f59a33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   playercount: 0
---- !u!114 &1284947977
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1284947971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneId: 3890734439
-  serverOnly: 0
-  m_AssetId: 
-  hasSpawned: 0
 --- !u!1001 &1373962256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4220,8 +4175,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!108 &1416179361
 Light:
@@ -4586,8 +4539,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!114 &1473294422
 MonoBehaviour:
@@ -4733,8 +4684,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!114 &1544047362
 MonoBehaviour:
@@ -4949,8 +4898,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!114 &1574926438
 MonoBehaviour:
@@ -5167,8 +5114,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!108 &1618179768
 Light:
@@ -5426,8 +5371,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!114 &1667048336
 MonoBehaviour:
@@ -5703,8 +5646,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!108 &1746590176
 Light:
@@ -5893,8 +5834,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!114 &1790894854
 MonoBehaviour:
@@ -6022,8 +5961,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!108 &1824871174
 Light:
@@ -6481,8 +6418,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!114 &1906349897
 MonoBehaviour:
@@ -6679,8 +6614,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!108 &1975210626
 Light:
@@ -7022,8 +6955,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!114 &2060450034
 MonoBehaviour:
@@ -7357,8 +7288,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 857c6969e6af7d945b9f2680ca4d8bf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   target: {fileID: 0}
   tempTarget: {fileID: 0}
   playerTarget: {fileID: 0}
@@ -7380,8 +7309,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!114 &2109923640
 MonoBehaviour:
@@ -7608,8 +7535,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c0e0b38bf192441905997829c2a91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
   number: 0
 --- !u!135 &2144653699
 SphereCollider:
