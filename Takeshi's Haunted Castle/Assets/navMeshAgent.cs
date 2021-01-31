@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-//using Mirror;
+using Mirror;
 
-public class navMeshAgent : MonoBehaviour
+public class navMeshAgent : NetworkBehaviour
 {
     public Transform target;
     public Transform tempTarget;

@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using Mirror;
+using Mirror;
 
-public class assignment : MonoBehaviour
+public class assignment : NetworkBehaviour
 {
     public GameObject myNetworkManager;
     public GameObject myEnemy;
@@ -45,7 +45,7 @@ public class assignment : MonoBehaviour
     }
     private void Awake()
     {
-        myNetworkManager = GameObject.Find("networkManager");
+        myNetworkManager = GameObject.Find("exit");
         myNetworkManager.GetComponent<playerCount>().playercount += 1;
         playerNum = myNetworkManager.GetComponent<playerCount>().playercount;
         if ((myNetworkManager).GetComponent<playerCount>().playercount > 1)//u a camera

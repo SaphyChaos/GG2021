@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using Mirror;
+using Mirror;
 
-public class playerScript : MonoBehaviour
+public class playerScript : NetworkBehaviour
 {
     public bool seen;
     // Start is called before the first frame update
