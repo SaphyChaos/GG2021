@@ -241,7 +241,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 106, y: -82}
+  m_AnchoredPosition: {x: 106, y: -47}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &421401947
@@ -439,7 +439,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -106, y: -82}
+  m_AnchoredPosition: {x: -106, y: -47}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &662411507
@@ -594,7 +594,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Start
 --- !u!222 &794224971
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -673,7 +673,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: 'Quit
+
+'
 --- !u!222 &804936911
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -971,8 +973,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0de68af505f8df94b96cb32b9d3d1857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startButton: {fileID: 662411505}
-  endButton: {fileID: 6801895}
+  startButton: {fileID: 662411507}
+  endButton: {fileID: 6801896}
 --- !u!4 &2035670541
 Transform:
   m_ObjectHideFlags: 0
