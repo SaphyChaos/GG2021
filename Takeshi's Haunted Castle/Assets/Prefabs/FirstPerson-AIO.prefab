@@ -491,7 +491,7 @@ MonoBehaviour:
   targetAngles: {x: 0, y: 0, z: 0}
   playerCanMove: 1
   walkByDefault: 1
-  walkSpeed: 4
+  walkSpeed: 3
   sprintKey: 304
   sprintSpeed: 8
   jumpPower: 5
@@ -499,7 +499,7 @@ MonoBehaviour:
   canHoldJump: 0
   useStamina: 1
   staminaDepletionSpeed: 2
-  staminaLevel: 50
+  staminaLevel: 5
   speed: 0
   staminaInternal: 0
   _crouchModifiers:
@@ -513,7 +513,7 @@ MonoBehaviour:
     gravityMultiplier: 1
     zeroFrictionMaterial: {fileID: 0}
     highFrictionMaterial: {fileID: 0}
-    maxSlopeAngle: 70
+    maxSlopeAngle: 55
     maxWallShear: 89
     maxStepHeight: 0.2
     curntGroundNormal: {x: 0, y: 0, z: 0}
