@@ -10,6 +10,8 @@ ScriptsOnlyBuild:
     - playerScript
     - sideFinder
     - targetedNum
+    Mirror.Components.dll:
+    - Mirror.NetworkTransform
     Mirror.dll:
     - Mirror.NetworkIdentity
     - Mirror.NetworkManager
@@ -85,6 +87,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3128}
     - Class: 114
       Script: {instanceID: 3310}
+    - Class: 114
+      Script: {instanceID: 3750}
     - Class: 114
       Script: {instanceID: 3888}
     - Class: 114
@@ -346,7 +350,7 @@ ScriptsOnlyBuild:
     className: G_FpsText
   - hash:
       serializedVersion: 2
-      Hash: edd54661dcff3ef00e788d46a22e8d76
+      Hash: 02a6af8944d6cf0c9f1164f54c04a466
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: sideFinder
@@ -574,7 +578,7 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: 4d961eaaa74388f72ac78e3024c30daa
+      Hash: 6335404d00fef3bb395689a1d2ed2812
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: assignment
@@ -586,7 +590,7 @@ ScriptsOnlyBuild:
     className: CanvasController
   - hash:
       serializedVersion: 2
-      Hash: e9b055406bed76a3ec3845d08ac70a1a
+      Hash: a9401d541211021857b2e7b6eb2763b0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: navMeshAgent
@@ -760,7 +764,7 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 60b40ad1ceee062485f600099457b172
+      Hash: 996e646422e46cd653950b16f962b2e8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: playerScript
@@ -808,7 +812,7 @@ ScriptsOnlyBuild:
     className: PlayerController
   - hash:
       serializedVersion: 2
-      Hash: ef3612cb5a4239628a3a2214de629368
+      Hash: 8b3afcecc813672e11618520a42066d7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: playerCount
@@ -892,7 +896,7 @@ ScriptsOnlyBuild:
     className: AddForce
   - hash:
       serializedVersion: 2
-      Hash: 34bf7f168cdb33d5db3126259a634948
+      Hash: 3cea62643241ab8304b176bc59a9a52c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FirstPersonAIO
@@ -1156,7 +1160,7 @@ ScriptsOnlyBuild:
     className: NetworkIdentity
   - hash:
       serializedVersion: 2
-      Hash: 423b732f4fa271c6b0e5b4556867edec
+      Hash: 5886e078859ef47551e64e5f26881700
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: targetedNum
@@ -1294,7 +1298,7 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 3f70d1fb7bbb928855d80c66bee20eb2
+      Hash: c03e9fe552467fa8131145d643f96525
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: exit
@@ -1324,7 +1328,7 @@ ScriptsOnlyBuild:
     className: Spawner
   - hash:
       serializedVersion: 2
-      Hash: b1f3d1b1449c1d30d4b04dfabf3d399d
+      Hash: f92ba513256738e58e1759969ed46055
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SD

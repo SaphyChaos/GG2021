@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Mirror;
 
-public class assignment : MonoBehaviour
+public class assignment : NetworkBehaviour
 {
     public GameObject myNetworkManager;
     public GameObject myEnemy;
@@ -10,6 +11,7 @@ public class assignment : MonoBehaviour
     public bool isCamera;
     public int currentCam;
     public int playerNum;
+    public bool playerDie;
     // Start is called before the first frame update
     void Start()
     {

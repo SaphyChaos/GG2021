@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Mirror;
 
-public class playerCount : MonoBehaviour
+public class playerCount : NetworkBehaviour
 {
     public int playercount;
     // Start is called before the first frame update

@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using Mirror;
 
-public class navMeshAgent : MonoBehaviour
+public class navMeshAgent : NetworkBehaviour
 {
     public Transform target;
     public Transform tempTarget;
@@ -16,6 +17,7 @@ public class navMeshAgent : MonoBehaviour
     public float timeToMove;
     public bool canSee;
     public bool active = false;
+    public bool die;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +39,7 @@ public class navMeshAgent : MonoBehaviour
             if(hitColliders2.Length > 0)
             {
                 print("GAME OVER");
+                die = true;
                 Application.Quit();
             }
             if (canSee)//(player.GetComponent<playerScript>().seen)
