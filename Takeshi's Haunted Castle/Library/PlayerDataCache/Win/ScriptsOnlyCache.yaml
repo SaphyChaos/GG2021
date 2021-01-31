@@ -1331,4 +1331,4 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Scenes/BoppaScene.unity
-  playerPath: D:/Unity Projects/Takeshi's Haunted Castle.exe
+  playerPath: D:/Unity Projects/GG2021/game/Takeshi's Haunted Castle.exe
