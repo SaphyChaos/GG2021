@@ -31,6 +31,14 @@ public class navMeshAgent : MonoBehaviour
         if (active)
         {
             timer += Time.deltaTime;
+            int layerId2 = LayerMask.NameToLayer("Player");
+            int mask2 = 1 << layerId2;
+            Collider[] hitColliders2 = Physics.OverlapSphere(transform.position, 2, mask2);
+            if(hitColliders2.Length > 0)
+            {
+                print("GAME OVER");
+                Application.Quit();
+            }
             if (canSee)//(player.GetComponent<playerScript>().seen)
             {
                 myAgent.destination = playerTarget.position;

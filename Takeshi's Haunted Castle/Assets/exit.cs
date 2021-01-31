@@ -18,7 +18,12 @@ using UnityEngine.SceneManagement;
         // Update is called once per frame
         void Update()
         {
-            findPlayer = Physics.OverlapSphere(transform.position, 5, mask);
-            SceneManager.LoadScene("onlineScene", LoadSceneMode.Additive);
+            findPlayer = Physics.OverlapSphere(transform.position, 2, mask);
+        if (findPlayer.Length > 0)
+        {
+            print("you win!");
+            Application.Quit();
+            //SceneManager.LoadScene("BoppaScene");
+        }
     }
     }

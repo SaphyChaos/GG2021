@@ -491,7 +491,7 @@ MonoBehaviour:
   targetAngles: {x: 0, y: 0, z: 0}
   playerCanMove: 1
   walkByDefault: 1
-  walkSpeed: 3
+  walkSpeed: 2
   sprintKey: 304
   sprintSpeed: 8
   jumpPower: 5
@@ -499,7 +499,7 @@ MonoBehaviour:
   canHoldJump: 0
   useStamina: 1
   staminaDepletionSpeed: 2
-  staminaLevel: 5
+  staminaLevel: 3
   speed: 0
   staminaInternal: 0
   _crouchModifiers:
