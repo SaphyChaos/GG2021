@@ -9,11 +9,13 @@ public class StartScreen : MonoBehaviour
 
     public Button startButton;
     public Button endButton;
+    public GameObject uICanvasObject;
     // Start is called before the first frame update
     void Start()
     {
         startButton.onClick.AddListener(loadSceneOnClick);
         endButton.onClick.AddListener(quitOnClick);
+        uICanvasObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -24,10 +26,14 @@ public class StartScreen : MonoBehaviour
 
     void loadSceneOnClick()
     {
-        SceneManager.LoadScene("onlineScene", LoadSceneMode.Additive);
+        SceneManager.LoadScene("BoppaScene", LoadSceneMode.Additive);
     }
     void quitOnClick()
     {
         Application.Quit();
+    }
+    public void EndGame()
+    {
+        uICanvasObject.SetActive(true);
     }
 }

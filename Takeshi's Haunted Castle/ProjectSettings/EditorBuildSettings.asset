@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/onlineScene.unity
-    guid: f585f35d4ed4a304da8a997687721e15
-  - enabled: 1
     path: Assets/Scenes/startscene.unity
     guid: 0ce4c35539b191144b8dfb34fef07fa6
+  - enabled: 1
+    path: Assets/Scenes/BoppaScene.unity
+    guid: 24b771633e6e1684192dcabd2d747d2b
   m_configObjects: {}
