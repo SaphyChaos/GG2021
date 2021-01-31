@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - wayPoint
+  - camera
+  - playerCam
   layers:
   - Default
   - TransparentFX

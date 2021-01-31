@@ -15,61 +15,66 @@ public class navMeshAgent : MonoBehaviour
     private int targetNumCompare;
     public float timeToMove;
     public bool canSee;
+    public bool active = false;
     // Start is called before the first frame update
     void Start()
     {
         myAgent = GetComponent<NavMeshAgent>();
         target = playerTarget;
         targetNumCompare = 1000000;
+        //playerTarget = GameObject.FindGameObjectsWithTag("Player")[0].transform;
     }
 
     // Update is called once per frame
     void Update()
     {
-        timer += Time.deltaTime;
-        if (canSee)//(player.GetComponent<playerScript>().seen)
+        if (active)
         {
-            myAgent.destination = playerTarget.position;
-            print("I SEE YOU");
-        }
-        else
-        {
-            if (timer > timeToMove)
+            timer += Time.deltaTime;
+            if (canSee)//(player.GetComponent<playerScript>().seen)
             {
-                timer = 0f;
-                if (Random.Range(0f, 1f) <= difficulty)
-                {
-                    target = playerTarget;
-                    print("hard");
-                }
-                else
-                {
-                    int layerId = LayerMask.NameToLayer("wayPoints");
-                    int mask = 1 << layerId;
-                    Collider[] hitColliders = Physics.OverlapSphere(transform.position, 10, mask);
-                    if (hitColliders.Length != 0)
-                    {
-                        tempTarget = hitColliders[Random.Range(0, hitColliders.Length)].transform;
-                        if (tempTarget.GetComponent<targetedNum>().number < targetNumCompare)
-                        {
-                            targetNumCompare = tempTarget.GetComponent<targetedNum>().number;
-                            tempTarget = hitColliders[Random.Range(0, hitColliders.Length)].transform;
-                        }
-                        tempTarget.GetComponent<targetedNum>().number += 1;
-                        target = tempTarget;
-                    }
-                    target.transform.localScale = new Vector3(2f, 2f, 2f);
-                    print("easy");
-                }
-                myAgent.destination = target.position;
+                myAgent.destination = playerTarget.position;
+                print("I SEE YOU");
             }
+            else
+            {
+                if (timer > timeToMove)
+                {
+                    timer = 0f;
+                    if (Random.Range(0f, 1f) <= difficulty)
+                    {
+                        target = playerTarget;
+                        print("hard");
+                    }
+                    else
+                    {
+                        int layerId = LayerMask.NameToLayer("wayPoints");
+                        int mask = 1 << layerId;
+                        Collider[] hitColliders = Physics.OverlapSphere(transform.position, 10, mask);
+                        if (hitColliders.Length != 0)
+                        {
+                            tempTarget = hitColliders[Random.Range(0, hitColliders.Length)].transform;
+                            if (tempTarget.GetComponent<targetedNum>().number < targetNumCompare)
+                            {
+                                targetNumCompare = tempTarget.GetComponent<targetedNum>().number;
+                                tempTarget = hitColliders[Random.Range(0, hitColliders.Length)].transform;
+                            }
+                            tempTarget.GetComponent<targetedNum>().number += 1;
+                            target = tempTarget;
+                        }
+                        target.transform.localScale = new Vector3(2f, 2f, 2f);
+                        print("easy");
+                    }
+                    myAgent.destination = target.position;
+                }
+            }
+            /*
+            print(hitColliders.Length);
+            for (int i = 0; i < hitColliders.Length; i++)
+                print(hitColliders[i].name);
+
+            */
         }
-        /*
-        print(hitColliders.Length);
-        for (int i = 0; i < hitColliders.Length; i++)
-            print(hitColliders[i].name);
-        
-        */
     }
     private void FixedUpdate()
     {
